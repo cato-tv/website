@@ -33,7 +33,7 @@ const videos = {
     title: 'The Art of Storytelling',
     authorName: 'Simon Sinek',
     imageUrl:
-      'https://res.cloudinary.com/monads/image/upload/f_auto/v1610218595/cato/simon_sinek_w1z3z6.png',
+      'https://res.cloudinary.com/srthkv/image/upload/v1618143456/cato/image_1_exbnex.png',
 
     videoId: '8xDoUMagFrs',
   },
@@ -41,7 +41,7 @@ const videos = {
     title: 'How to Create Wealth',
     authorName: 'Naval Ravikant',
     imageUrl:
-      'https://res.cloudinary.com/monads/image/upload/f_auto/v1610218594/cato/naval_ravikant_dm0eei.png',
+      'https://res.cloudinary.com/srthkv/image/upload/v1618143457/cato/Rectangle_93_erpoxo.png',
 
     videoId: '7YX19JCHBxc',
   },
@@ -49,7 +49,7 @@ const videos = {
     title: 'First Principles Thinking',
     authorName: 'Elon Musk',
     imageUrl:
-      'https://res.cloudinary.com/monads/image/upload/f_auto/v1610218596/cato/elon_musk_d1lnzi.png',
+      'https://res.cloudinary.com/srthkv/image/upload/v1618143457/cato/Rectangle_95_imamva.png',
 
     videoId: 'F5dgivEa_eY',
   },

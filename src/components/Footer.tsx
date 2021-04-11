@@ -42,7 +42,7 @@ const Footer = () => {
           <Text as="span" textStyle="body3" color="#FF8364">
             ❤️️
           </Text>{' '}
-          by back benchers
+          by Cato Avengers
         </Text>
 
         <Stack
@@ -50,7 +50,7 @@ const Footer = () => {
           spacing={'16px'}
           align={{base: 'center', lg: 'center'}}>
           <Text textStyle="body3" color="white">
-            No &copy; 2020
+            No &copy; 2021
           </Text>
           <a
             href="https://docs.google.com/document/d/1nr-gURtdgKTo5rLEwArXvMODGYACpNp-yC36erDucV4/edit"

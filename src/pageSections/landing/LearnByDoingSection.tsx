@@ -4,8 +4,17 @@ import {Box, Heading, Image, Stack, Text} from '@chakra-ui/react'
 
 import {transformCloudinaryImgUrl} from '../../common/utils'
 
+import {
+  CircleFilledDecorator,
+  CircleOutlinedDecorator,
+} from '../../common/icons/CircleFilledDecorator'
+import {TriangleDecorator} from '../../common/icons/TriangleDecorator'
+
 const GRAPHICS_IMG_URL =
-  'https://res.cloudinary.com/monads/image/upload/v1610239614/cato/learn_by_doing_ql01js.png'
+  'https://res.cloudinary.com/srthkv/image/upload/v1618151085/cato/LEARNBYDOING2_dpmmqf.png'
+
+// const CROSS_LINE =
+//   'https://res.cloudinary.com/srthkv/image/upload/v1618149557/cato/Vector_cross_ja1jci.png'
 
 // 350, 615
 export const LearnByDoingSection = () => {
@@ -58,9 +67,59 @@ export const LearnByDoingSection = () => {
                 </Text>
               </Stack>
             </Stack>
+            {/* <ImagesDecorators /> */}
           </Box>
         </Stack>
       </Stack>
     </Box>
   )
 }
+
+const ImagesDecorators = () => (
+  <>
+    <CircleFilledDecorator
+      position="absolute"
+      // size={['31px', '62px']}
+      // size={['2.85rem', '3.875rem']}
+      size={[10, 14]}
+      top={['-40px', '-70px']}
+      right={['5vw', '15vw']}
+      bg="secondary1"
+    />
+
+    <Box
+      position="absolute"
+      zIndex={-1}
+      right={['-10px', '10vw']}
+      top={['50px', '130px']}
+      transform={['scale(0.312)', 'scale(0.625)']}>
+      <TriangleDecorator />
+    </Box>
+
+    <Box
+      position="absolute"
+      zIndex={-1}
+      left={['-8vw', '-2vw']}
+      bottom={['-70px', '-90px']}
+      transform={['scale(0.312)', 'scale(0.625)']}>
+      <TriangleDecorator color="#51DED6" />
+    </Box>
+
+    <CircleOutlinedDecorator
+      position="absolute"
+      left={['10vw', '4vw']}
+      top={['-35px', '-40px']}
+      // size={['14px', '28px']}
+      // size={['1.167rem', '1.75rem']}
+      size={[4, 7]}
+      borderColor="primary1"
+    />
+
+    <CircleOutlinedDecorator
+      position="absolute"
+      left={['40vw', '20vw']}
+      bottom={['-10px', '-30px']}
+      size={[4, 7]}
+    />
+  </>
+)
