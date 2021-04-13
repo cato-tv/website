@@ -9,7 +9,7 @@ import {
 import {TriangleDecorator} from '../../common/icons/TriangleDecorator'
 
 const MEET_CATO_GRAPHICS =
-  'https://res.cloudinary.com/monads/image/upload/f_auto/v1610207538/cato/Group_16meetCato_syfgli.png'
+  'https://res.cloudinary.com/srthkv/image/upload/v1618143375/cato/iphone-12--white_2x_jreums.png'
 
 export const MeetCatoSection = () => {
   return (
@@ -26,7 +26,7 @@ export const MeetCatoSection = () => {
               justify="center"
               spacing={['15px', '19px']}>
               <Image
-                src="https://res.cloudinary.com/monads/image/upload/v1610208929/cato/hi-icon_ry7g4t.png"
+                src="https://res.cloudinary.com/srthkv/image/upload/v1618143144/cato/hi-icon_1_ronhpe.svg"
                 alt="Hi Icon"
                 width={['33px', '40px']}
               />

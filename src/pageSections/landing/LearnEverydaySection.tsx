@@ -19,17 +19,17 @@ const images = [
   {
     id: '1',
     imageUrl:
-      'https://res.cloudinary.com/monads/image/upload/v1610235831/cato/learneveryday_1_mcsotc.png',
+      'https://res.cloudinary.com/srthkv/image/upload/v1618144069/cato/Rectangle_90_1_i5qeci.png',
   },
   {
     id: '2',
     imageUrl:
-      'https://res.cloudinary.com/monads/image/upload/v1610235832/cato/learn_everyday_2_mcsiay.png',
+      'https://res.cloudinary.com/srthkv/image/upload/v1618144069/cato/Rectangle_91_1_zhd6tt.png',
   },
   {
     id: '3',
     imageUrl:
-      'https://res.cloudinary.com/monads/image/upload/v1610235830/cato/learn_everyday_3_xhxxmw.png',
+      'https://res.cloudinary.com/srthkv/image/upload/v1618144069/cato/Rectangle_92_1_bihiy4.png',
   },
 ]
 
@@ -127,7 +127,7 @@ const ImagesDecorators = () => (
     <Box
       position="absolute"
       zIndex={-1}
-      right={['-40px', '4vw']}
+      right={['-10px', '10vw']}
       top={['50px', '130px']}
       transform={['scale(0.312)', 'scale(0.625)']}>
       <TriangleDecorator />
