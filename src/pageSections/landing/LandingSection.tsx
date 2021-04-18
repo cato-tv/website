@@ -3,14 +3,14 @@ import {CatoLogoSvg} from '../../common/icons/CatoLogoSvg'
 import {
   Box,
   Button,
-  Center,
-  Container,
+  // Center,
+  // Container,
   Heading,
   Stack,
   Text,
 } from '@chakra-ui/react'
 import {LandingGraphicsSvg} from '../../common/icons/LandingGraphicsSvg'
-import {AnchorLink} from 'gatsby-plugin-anchor-links'
+// import {AnchorLink} from 'gatsby-plugin-anchor-links'
 import {scrollToTarget} from '../../common/utils'
 import {css} from '@emotion/react'
 

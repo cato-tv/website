@@ -15,12 +15,18 @@ export const MeetCatoSection = () => {
   return (
     <Box as="section">
       <Stack pt={['70px', '98px']} justify="center" position="relative">
+        <Stack spacing={[14, 6]} align="center">
+          <Heading textStyle="h1" align="center">
+            Welcome to the Future of education
+          </Heading>
+        </Stack>
         <Stack spacing={['50px', '90px']} align="center">
           <Stack
             direction={['column', 'row']}
             align={['center', 'flex-end']}
             spacing={['7px', '1ch']}>
             <Stack
+              mt="5"
               direction="row"
               align="center"
               justify="center"
@@ -30,12 +36,15 @@ export const MeetCatoSection = () => {
                 alt="Hi Icon"
                 width={['33px', '40px']}
               />
-              <Heading textStyle="h2" align="center">
+              <Heading
+                textStyle="h3"
+                fontFamily="'Merriweather'"
+                align="center">
                 Meet Cato
               </Heading>
             </Stack>
             <Text
-              textStyle="body2"
+              textStyle="bodymono"
               align="center"
               mb={['0px', '10px']}
               color="#C4C4C4">
@@ -44,7 +53,8 @@ export const MeetCatoSection = () => {
           </Stack>
           <Box position="relative">
             <Image
-              boxSize={['300px', '466px']}
+              mt="-10"
+              boxSize={['300px', '600px']}
               objectFit="contain"
               src={MEET_CATO_GRAPHICS}
               alt="Meet Cato"
@@ -62,14 +72,14 @@ const DecoratorComponents = () => (
     <CircleFilledDecorator
       position="absolute"
       bottom={['0px', '120px']}
-      left={['-10px', '-10px']}
+      left={['-10px', '50px']}
       size={10}
     />
 
     <CircleFilledDecorator
       position="absolute"
       bottom={['30px', '-5vh']}
-      right={['40vw', '-7vw']}
+      right={['40vw', '-4vw']}
       size={10}
     />
 
@@ -80,17 +90,18 @@ const DecoratorComponents = () => (
       right={['-90px', '-2vw']}>
       <TriangleDecorator />
     </Box>
+
     <CircleOutlinedDecorator
       position="absolute"
-      left={['20px', '40px']}
-      top={['0px', '0px']}
+      left={['20px', '95px']}
+      top={['0px', '-30px']}
       // size={['90px', '115px']}
       // size={['7.5rem', '7.19rem']}
       size={28}
     />
     <CircleOutlinedDecorator
       position="absolute"
-      right={['20px', '60px']}
+      right={['20px', '120px']}
       top={['25vh', '30vh']}
       size={5}
       borderColor="primary1"
