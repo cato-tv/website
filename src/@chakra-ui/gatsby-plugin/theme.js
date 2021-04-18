@@ -9,8 +9,8 @@ export default extendTheme({
     text2: '#7F7F7F',
   },
   fonts: {
-    body: "'Poppins', " + defaultTheme.fonts.body,
-    heading: "'MerriWeather', " + defaultTheme.fonts.heading,
+    body: "'Roboto', sans-serif" + defaultTheme.fonts.body,
+    heading: "'SFPro', " + defaultTheme.fonts.heading,
     // mono: "Poppins, "+ defaultTheme.fonts.mono,
   },
   textStyles: {
@@ -47,6 +47,12 @@ export default extendTheme({
       fontSize: ['1rem'],
       fontWeight: 'normal',
       lineHeight: '150%',
+    },
+    bodymono: {
+      fontSize: ['1.125rem'],
+      fontWeight: 'normal',
+      lineHeight: '150%',
+      fontFamily: "'Inconsolata', monospace",
     },
   },
 

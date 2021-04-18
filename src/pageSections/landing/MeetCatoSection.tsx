@@ -15,12 +15,18 @@ export const MeetCatoSection = () => {
   return (
     <Box as="section">
       <Stack pt={['70px', '98px']} justify="center" position="relative">
+        <Stack spacing={[14, 6]} align="center">
+          <Heading textStyle="h1" align="center">
+            Welcome to the Future of education
+          </Heading>
+        </Stack>
         <Stack spacing={['50px', '90px']} align="center">
           <Stack
             direction={['column', 'row']}
             align={['center', 'flex-end']}
             spacing={['7px', '1ch']}>
             <Stack
+              mt="10"
               direction="row"
               align="center"
               justify="center"
@@ -30,12 +36,15 @@ export const MeetCatoSection = () => {
                 alt="Hi Icon"
                 width={['33px', '40px']}
               />
-              <Heading textStyle="h2" align="center">
+              <Heading
+                textStyle="h2"
+                fontFamily="'Libre Baskerville', serif"
+                align="center">
                 Meet Cato
               </Heading>
             </Stack>
             <Text
-              textStyle="body2"
+              textStyle="bodymono"
               align="center"
               mb={['0px', '10px']}
               color="#C4C4C4">
