@@ -382,10 +382,12 @@ a {
 }
 
 .image-8 {
+  width: 210px;
   box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.2);
 }
 
 .image-9 {
+  width: 220px;
   border-radius: 20px;
   box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.2);
 }
@@ -443,6 +445,7 @@ a {
 }
 
 .learn-image {
+  width: 200px;
   border-radius: 20px;
   box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.2);
 }
@@ -851,6 +854,10 @@ a {
   color: #fff;
 }
 
+.image-21 {
+  width: 620px;
+}
+
 @media screen and (max-width: 991px) {
   .section {
     padding-top: 60px;
@@ -1005,6 +1012,7 @@ a {
   }
 
   .image-17 {
+    width: 620px;
     margin-top: 20px;
   }
 }
