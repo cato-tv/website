@@ -41,6 +41,10 @@ a {
   font-size: 24px;
 }
 
+.body.center {
+  text-align: center;
+}
+
 .section {
   overflow: hidden;
   padding-top: 90px;
@@ -69,6 +73,10 @@ a {
   font-size: 48px;
   line-height: 60px;
   text-align: left;
+}
+
+.heading.center {
+  text-align: center;
 }
 
 .main-paragraph {
